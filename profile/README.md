@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="assets/laszlo-banner.png" alt="LASZLO" width="680" />
+<img src="https://raw.githubusercontent.com/LASZLO-Quantification/.github/main/profile/assets/laszlo-banner.jpg" alt="LASZLO" width="680" />
 
 ### Institutional on-chain alpha infrastructure
 
@@ -45,22 +45,9 @@ Not a block explorer. Not a signal channel. Not a copy-trading app. **Infrastruc
 | **Execute** | Unified routing, position management, risk gates |
 | **Learn** | Data flywheel — collect → label → retrain → deploy |
 
-```mermaid
-flowchart LR
-  subgraph ingest["Ingest · Rust"]
-    I[WebSocket capture]
-  end
-  subgraph bus["Message bus"]
-    R[(Redis Streams)]
-  end
-  subgraph infer["Infer · Python"]
-    S[Strategy + ML]
-  end
-  subgraph exec["Execute · Rust"]
-    E[Orders + risk]
-  end
-  I --> R --> S --> E
-  E -.->|Base L2 · Uniswap V3| I
+```text
+Ingest (Rust) → Redis Streams → Infer (Python) → Execute (Rust) → Base L2
+                      ↑________________feedback________________↓
 ```
 
 **One pipeline. One operator surface. Risk before return.**
@@ -104,11 +91,7 @@ Named after **Laszlo Hanyecz** — the first real on-chain exchange. The referen
 
 ## Operator surface
 
-<p align="center">
-  <img src="assets/laszlo-terminal.png" alt="LASZLO terminal concept" width="720" />
-  <br/>
-  <sub><em>Terminal concept — dark-mode operator UI. Production systems under active development.</em></sub>
-</p>
+Terminal concept (illustrative) → [view on GitHub](https://github.com/LASZLO-Quantification/.github/blob/main/profile/assets/laszlo-terminal.jpg) · production systems under active development.
 
 ---
 
@@ -121,8 +104,6 @@ We ship like an infrastructure team — measurable pipelines, explicit risk gate
 ---
 
 ## Public satellites
-
-Open tools that share LASZLO's engineering DNA — **closed loops, risk gates, audit trails**:
 
 | Project | What |
 |---------|------|
@@ -158,7 +139,7 @@ Core repositories remain **private during active development**. **Follow [@LASZL
 
 <div align="center">
 
-<img src="assets/laszlo-mark.png" alt="LASZLO" width="56" />
+<img src="https://raw.githubusercontent.com/LASZLO-Quantification/.github/main/profile/assets/laszlo-mark.png" alt="LASZLO" width="56" />
 
 <br/>
 
