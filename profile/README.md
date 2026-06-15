@@ -120,6 +120,21 @@ We ship like an infrastructure team — measurable pipelines, explicit risk gate
 
 ---
 
+## Public satellites
+
+Open tools that share LASZLO's engineering DNA — **closed loops, risk gates, audit trails**:
+
+| Project | What |
+|---------|------|
+| [**Omni-Asset Quant Terminal**](https://github.com/LASZLO-Quantification/Omni-Asset-Quant-Terminal) | Multi-asset VA/DCA Streamlit terminal |
+| [**KeyVeil**](https://github.com/LASZLO-Quantification/KeyVeil) | Agent payment policy shell + Hash Crystal audit UI |
+
+Full index → [**docs/projects**](https://github.com/LASZLO-Quantification/.github/tree/main/docs/projects)
+
+Core on-chain engine **[LASZLO](https://github.com/LASZLO-Quantification/LASZLO)** remains **private**.
+
+---
+
 ## Read more
 
 | Resource | Link |
